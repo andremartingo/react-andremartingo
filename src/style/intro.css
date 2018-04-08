@@ -1,0 +1,77 @@
+/** INTRO COMPONENT**/
+.heroWrap {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.heroWords {
+  font-size: 80pt;
+  color: #2a2a2c;
+  font-weight: 400;
+  line-height: 90pt;
+}
+.buttons {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 10%;
+  padding-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.button {
+  padding: 20px 60px 20px 60px;
+  background-color: #2a2a2c;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 14pt;
+  border-radius: 5px;
+}
+.button:hover {
+  padding: 20px 60px 20px 60px;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+  -moz-transition: 0.2s ease-in-out;
+  -webkit-transition: 0.2s ease-in-out;
+}
+.buttons {
+  width: 100%;
+  margin-left: 0%;
+  margin-top: 3%;
+  display: flex;
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 799px) and (min-width: 350px) {
+  .heroWrap {
+    width: 80%;
+    height: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  .heroWords {
+    font-size: 40pt;
+    color: #2a2a2c;
+    font-weight: 400;
+    line-height: 47pt;
+  }
+}
+
+@media screen and (max-width: 1300px) and (min-width: 1024px) {
+  .heroWords {
+    font-size: 65pt;
+    color: #2a2a2c;
+    font-weight: 400;
+  }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 800px) {
+  .heroWords {
+    font-size: 45pt;
+    color: #2a2a2c;
+    font-weight: 400;
+    line-height: 1.3;
+  }
+}
