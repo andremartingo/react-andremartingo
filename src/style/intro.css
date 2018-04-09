@@ -1,12 +1,13 @@
 /** INTRO COMPONENT**/
+
 .heroWrap {
   margin-top: 7.5%;
 }
 .heroWords {
-  font-size: 80pt;
+  font-size: 100px;
   color: #2a2a2c;
   font-weight: 400;
-  line-height: 100pt;
+  line-height: 125px;
 }
 .buttons {
   width: 80%;
@@ -43,29 +44,13 @@
   vertical-align: middle;
 }
 
-@media screen and (max-width: 1300px) and (min-width: 1024px) {
-  .heroWords {
-    font-size: 80pt;
-    color: #2a2a2c;
-    font-weight: 400;
-    line-height: 90pt;
-  }
-}
+/* Mobile Screen*/
 
-@media screen and (max-width: 1024px) and (min-width: 800px) {
+@media screen and (max-width: 1224px) {
   .heroWords {
-    font-size: 70pt;
+    font-size: 50px;
     color: #2a2a2c;
     font-weight: 400;
-    line-height: 90pt;
-  }
-}
-
-@media screen and (max-width: 799px) and (min-width: 350px) {
-  .heroWords {
-    font-size: 40pt;
-    color: #2a2a2c;
-    font-weight: 400;
-    line-height: 50pt;
+    line-height: 80px;
   }
 }

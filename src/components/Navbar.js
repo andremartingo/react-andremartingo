@@ -13,6 +13,8 @@ import {
   DropdownItem
 } from "reactstrap";
 
+import "../style/navbar.css";
+
 export default class Navigation extends React.Component {
   constructor(props) {
     super(props);
@@ -32,16 +34,18 @@ export default class Navigation extends React.Component {
       <div>
         <Navbar color="light" light expand="md">
           <div className="container">
-            <NavbarBrand href="/">reactstrap</NavbarBrand>
+            <NavbarBrand href="/">andremartingo</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
                 <NavItem>
-                  <NavLink href="/components/">Components</NavLink>
+                  <NavLink href="https://twitter.com/andremartingo">
+                    <i className="fa fa-twitter" />
+                  </NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink href="https://github.com/reactstrap/reactstrap">
-                    GitHub
+                    <i className="fa fa-github" />
                   </NavLink>
                 </NavItem>
               </Nav>

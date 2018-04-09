@@ -9,7 +9,7 @@ const Intro = props => {
         <b> clean.</b>
       </div>
       <div className="buttons">
-        <a href="https://github.com/andremartingo" class="button">
+        <a href="https://github.com/andremartingo" className="button">
           See my work
         </a>
       </div>
