@@ -32,7 +32,7 @@ export default class Navigation extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color="light" light expand="md">
+        <Navbar fixed="top" color="white" light expand="md">
           <div className="container">
             <NavbarBrand href="/">andremartingo</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
