@@ -15,7 +15,7 @@ footer {
 
 .socialfooter {
   float: right;
-  line-height: 45pt;
+  line-height: 45px;
   color: white;
 }
 .socialfooter > a {
@@ -26,4 +26,27 @@ footer {
 
 .socialfooter > a:hover {
   color: dimgrey;
+}
+
+@media screen and (max-width: 799px) and (min-width: 350px) {
+  footer {
+    height: 100px;
+    clear: both;
+    text-align: center;
+  }
+
+  .copyright {
+    width: 75%;
+    font-size: 12pt;
+    line-height: 24pt;
+    margin-left: 12.5%;
+    text-align: center;
+  }
+
+  .socialfooter {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: -10px;
+  }
 }

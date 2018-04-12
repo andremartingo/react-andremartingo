@@ -3,8 +3,8 @@ import "../style/intro.css";
 
 const Intro = props => {
   return (
-    <div className="heroWrap">
-      <div className="heroWords">
+    <div className="herowrap">
+      <div className="herowords">
         I design and develop experiences that make people's lives
         <b> clean.</b>
       </div>
