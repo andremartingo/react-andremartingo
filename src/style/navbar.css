@@ -1,3 +1,7 @@
 .bg-light {
   background-color: white !important;
 }
+
+.logo {
+  height: 50px;
+}

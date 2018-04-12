@@ -4,13 +4,13 @@ footer {
   color: white;
   height: 60px;
   bottom: 0;
-  position: inherit;
+  position: absolute;
 }
 .copyright {
   float: left;
-  width: 40%;
+  width: 50%;
   line-height: 27px;
-  margin-top: 2.5%;
+  margin-top: 15px;
 }
 
 .socialfooter {

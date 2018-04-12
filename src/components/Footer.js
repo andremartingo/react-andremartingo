@@ -5,7 +5,9 @@ const Footer = props => {
   return (
     <footer>
       <div className="container">
-        <div className="copyright">Made by André Martingo</div>
+        <div className="copyright">
+          Made by <b>A</b>ndré <b>M</b>artingo
+        </div>
         <div className="socialfooter">
           <a
             class="socialIcon"
