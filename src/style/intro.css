@@ -1,26 +1,17 @@
 /** INTRO COMPONENT**/
 
 .herowrap {
+  display: inherit;
+  flex-direction: column;
   margin-top: 7.5%;
 }
-
 .herowords {
   font-size: 100px;
   color: #2a2a2c;
   font-weight: 400;
   line-height: 125px;
+  overflow-y: scroll;
 }
-
-.buttons {
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  margin-top: 10%;
-  padding-top: 5%;
-  display: flex;
-  justify-content: space-between;
-}
-
 .button {
   padding: 20px 60px 20px 60px;
   background-color: #2a2a2c;
@@ -30,7 +21,6 @@
   font-size: 14pt;
   border-radius: 5px;
 }
-
 .button:hover {
   padding: 20px 60px 20px 60px;
   color: white;
@@ -40,7 +30,6 @@
   -moz-transition: 0.2s ease-in-out;
   -webkit-transition: 0.2s ease-in-out;
 }
-
 .buttons {
   width: 100%;
   margin-left: 0%;
@@ -57,5 +46,6 @@
     color: #2a2a2c;
     font-weight: 400;
     line-height: 80px;
+    overflow-y: scroll;
   }
 }

@@ -13,6 +13,7 @@ class App extends Component {
         <div className="container">
           <Intro />
         </div>
+        <div className="spaceindex" />
         <Footer />
       </div>
     );
