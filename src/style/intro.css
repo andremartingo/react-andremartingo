@@ -8,7 +8,7 @@
 .herowords {
   font-size: 100px;
   color: #2a2a2c;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 125px;
   overflow-y: scroll;
 }
@@ -44,7 +44,7 @@
   .herowords {
     font-size: 50px;
     color: #2a2a2c;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 80px;
     overflow-y: scroll;
   }
