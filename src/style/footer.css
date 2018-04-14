@@ -31,7 +31,7 @@
   color: dimgrey;
 }
 
-@media screen and (max-width: 799px) and (min-width: 350px) {
+@media screen and (max-width: 799px) {
   .footer {
     height: 100px;
     clear: both;
