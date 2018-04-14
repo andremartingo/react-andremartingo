@@ -19,17 +19,17 @@ export default class Navigation extends React.Component {
   }
   render() {
     return (
-      <div className="container-fluid">
-        <div className="container">
-          <div className="navbar">
-            <div>
-              <a href="/">
-                <img src={logo} className="logo" alt="logo" />
-              </a>
-            </div>
+      // <div className="container-fluid">
+      <div className="container">
+        <div className="navbar">
+          <div>
+            <a href="/">
+              <img src={logo} className="logo" alt="logo" />
+            </a>
           </div>
         </div>
       </div>
+      // </div>
     );
   }
 }
