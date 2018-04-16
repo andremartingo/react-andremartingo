@@ -10,7 +10,6 @@
   color: #2a2a2c;
   font-weight: 300;
   line-height: 125px;
-  overflow-y: scroll;
 }
 .button {
   padding: 20px 60px 20px 60px;
@@ -46,6 +45,5 @@
     color: #2a2a2c;
     font-weight: 300;
     line-height: 80px;
-    overflow-y: scroll;
   }
 }
