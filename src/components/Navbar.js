@@ -19,7 +19,6 @@ export default class Navigation extends React.Component {
   }
   render() {
     return (
-      // <div className="container-fluid">
       <div className="container">
         <div className="navbar">
           <div>
@@ -29,7 +28,6 @@ export default class Navigation extends React.Component {
           </div>
         </div>
       </div>
-      // </div>
     );
   }
 }
